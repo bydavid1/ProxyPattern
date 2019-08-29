@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PProxy.Views.NewPerson">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Agregar" Command="{Binding Add}"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout Margin="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="2*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <Label Grid.Column="0"
+                           Grid.Row="0" 
+                           Text="Nombres"
+                           VerticalOptions="Center"
+                           TextColor="Black"/>
+                    <Entry Grid.Column="1"
+                           Grid.Row="0"
+                           Placeholder="Ingrese nombre"
+                           Text="{Binding Nombre, Mode=TwoWay}"/>
+                    <Label Grid.Column="0"
+                           Grid.Row="1" 
+                           Text="Apellidos"
+                           VerticalOptions="Center"
+                           TextColor="Black"/>
+                    <Entry Grid.Column="1"
+                           Grid.Row="1"
+                           Placeholder="Ingrese apellidos"
+                           Text="{Binding Apellido, Mode=TwoWay}"/>
+                    <Label Grid.Column="0"
+                           Grid.Row="2" 
+                           Text="Direccion"
+                           VerticalOptions="Center"
+                           TextColor="Black"/>
+                    <Entry Grid.Column="1"
+                           Grid.Row="2"
+                           Placeholder="Ingrese direccion"
+                           Text="{Binding Direccion, Mode=TwoWay}"/>
+                    <Label Grid.Column="0"
+                           Grid.Row="3" 
+                           Text="Edad"
+                           VerticalOptions="Center"
+                           TextColor="Black"/>
+                    <Entry Grid.Column="1"
+                           Grid.Row="3"
+                           Placeholder="Ingrese edad"
+                           Text="{Binding Edad, Mode=TwoWay}"/>
+
+                </Grid>
+                <StackLayout Grid.Row="1"
+                             BackgroundColor="AliceBlue"
+                             Margin="0,20,0,80">
+                    <Label Text="Formulario de registro" Margin="10"/>
+                </StackLayout>
+            </Grid>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

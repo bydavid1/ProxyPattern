@@ -1,0 +1,12 @@
+C:\Users\Vladimir\source\repos\PProxy\DLL\bin\Debug\DLL.dll
+C:\Users\Vladimir\source\repos\PProxy\DLL\bin\Debug\DLL.pdb
+C:\Users\Vladimir\source\repos\PProxy\DLL\obj\Debug\DLL.csprojAssemblyReference.cache
+C:\Users\Vladimir\source\repos\PProxy\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\Vladimir\source\repos\PProxy\DLL\obj\Debug\DLL.dll
+C:\Users\Vladimir\source\repos\PProxy\DLL\obj\Debug\DLL.pdb
+C:\Users\CDS07\Desktop\XamN3\PProxy\DLL\bin\Debug\DLL.dll
+C:\Users\CDS07\Desktop\XamN3\PProxy\DLL\bin\Debug\DLL.pdb
+C:\Users\CDS07\Desktop\XamN3\PProxy\DLL\obj\Debug\DLL.csprojAssemblyReference.cache
+C:\Users\CDS07\Desktop\XamN3\PProxy\DLL\obj\Debug\DLL.csproj.CoreCompileInputs.cache
+C:\Users\CDS07\Desktop\XamN3\PProxy\DLL\obj\Debug\DLL.dll
+C:\Users\CDS07\Desktop\XamN3\PProxy\DLL\obj\Debug\DLL.pdb
